@@ -1,0 +1,7 @@
+# ignore everything
+*
+# But not .cpp file and readme and directories
+!*.cpp
+!*/
+!.gitignore
+!Readme.md
