@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-Take aday number and print the corresponding day .
+Take a day number and print the corresponding day .
 for 1 print monday ,
 for 2 print tuesday and so on.
 */
