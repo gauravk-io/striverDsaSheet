@@ -7,8 +7,8 @@ for 2 print tuesday and so on.
 */
 int main()
 {
-    int day;
-    cin >> day;
+    int day; // day variable is declared.
+    cin >> day; // input is taken.
     switch (day)
     {
     case 1:
