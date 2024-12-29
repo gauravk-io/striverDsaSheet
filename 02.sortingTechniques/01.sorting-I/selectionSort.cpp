@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
+using namespace std;
 
 void selectionSort(std::vector<int> &arr) {
     int n = arr.size();
@@ -12,26 +12,26 @@ void selectionSort(std::vector<int> &arr) {
         }
         // Swap the minimum element with the first element of unsorted subarray
         if (minIndex != i) {
-            std::swap(arr[i], arr[minIndex]);
+            swap(arr[i], arr[minIndex]);
         }
     }
 }
 
 int main() {
-    std::vector<int> arr = {64, 25, 12, 22, 11};
-    std::cout << "Original array: ";
+    vector<int> arr = {64, 25, 12, 22, 11};
+    cout << "Original array: ";
     for (int num : arr) {
-        std::cout << num << " ";
+        cout << num << " ";
     }
-    std::cout << std::endl;
+    cout << endl;
 
     selectionSort(arr);
 
-    std::cout << "Sorted array: ";
+    cout << "Sorted array: ";
     for (int num : arr) {
-        std::cout << num << " ";
+        cout << num << " ";
     }
-    std::cout << std::endl;
+    cout << endl;
 
     return 0;
 }
